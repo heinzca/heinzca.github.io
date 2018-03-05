@@ -19,6 +19,12 @@ a {
   display: inline-block;
   margin-left: 1em;
 }
+.header-nav > li:first-child a {
+  color: #ed6e2f;
+}
+.header-nav > li:first-child a:hover {
+  color: #000;
+}
 .header-nav a {
     color: #000;
     font-size: 0.8rem;
