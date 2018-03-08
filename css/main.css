@@ -200,7 +200,7 @@ h2 ~ p {
 }
 .callout-title {
   font-size: 5.75vw;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
 }
 .callout-copy {
