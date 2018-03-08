@@ -113,12 +113,14 @@ a {
 }
 .full-hero:after {
   bottom: 2vh;
-  color: #fff;
-  content: "\FE40"; /* Unicode for Vertical Right Angle Bracket*/
-  font-size: 36px;
+  border: 10px solid;
+  border-color: #fff transparent transparent;
+  content: "";
+  height: 0;
   left: 50%;
   position: absolute;
   transform: translate(-50%, 0);
+  width: 0;
 }
 .hero-content {
   color: #fff;
