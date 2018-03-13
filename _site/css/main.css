@@ -138,7 +138,7 @@ h2 ~ p {
   flex: 1;
 }
 .col-three .col-aside {
-  flex: 0 1 20em
+  flex: 0 1 20em;
 }
 
 /* HERO STYLES */
