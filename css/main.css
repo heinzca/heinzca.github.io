@@ -492,18 +492,40 @@ h2 ~ p {
   }
   .bio-box {
     float: none;
-    font-size: 1.31rem;
+    font-size: 1.3rem;
     width: auto;
   }
 
   /* BLOG STYLES */
-  .post-aside {
+  .blog-recent {
     display: none;
   }
-}
+  .blog-previews {
+    padding: 0;
+  }
 
-@media (max-width: 600px) {
-  .half-hero {
-    display: none;
+  /* GALLERY STYLES */
+  .gallery {
+    flex-direction: column;
+  }
+  .gallery .com {
+    padding: 1em;
+  }
+  .gallery .gallery-thumbs {
+    flex: 1;
+    height: auto;
+    white-space: nowrap;
+    width: 100 vw;
+  }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    height: 7vh;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  .gallery .gallery-info {
+    flex: 1;
   }
 }
