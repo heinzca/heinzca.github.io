@@ -503,6 +503,12 @@ h2 ~ p {
   .blog-previews {
     padding: 0;
   }
+  .post-aside {
+    display: none;
+  }
+  .post-content img {
+    width: 100%;
+  }
 
   /* GALLERY STYLES */
   .gallery {
