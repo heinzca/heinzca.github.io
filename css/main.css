@@ -412,6 +412,7 @@ h2 ~ p {
 }
 .bio-box h3 {
   color: #fff;
+  /* font-family: 'Mina', helvetica, sans; */
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
